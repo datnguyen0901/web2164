@@ -12,7 +12,7 @@ const router = express.Router();
 // Routing WEB
 
 //--- Home
-router.get('/home',
+router.get('/',
     (req, res) => {
         res.setHeader('Content-Type', 'text/html; charset=utf-8');
         res.send("Đây là trang Home !");
